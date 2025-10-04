@@ -8,7 +8,7 @@ _site/
 Gemfile.lock
 *.gem
 .bundle/
-vendor/
+vendor/bundle/
 
 # macOS
 .DS_Store
