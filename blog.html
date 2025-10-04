@@ -1,0 +1,23 @@
+---
+layout: default
+title: 博客文章
+---
+
+<div class="blog">
+  <h1>所有文章</h1>
+  
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%Y年%m月%d日" }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        <p>{{ post.excerpt }}</p>
+        <span class="post-category">分类: {{ post.category }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
