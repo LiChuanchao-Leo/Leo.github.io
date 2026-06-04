@@ -22,7 +22,7 @@ permalink: /about/
 
 如果你想与我交流，欢迎通过以下方式联系：
 
-- Email: your-email@example.com
+- Email: 1953434707@qq.com
 - GitHub: [@LiChuanchao-Leo](https://github.com/LiChuanchao-Leo)
 
 感谢你的访问！
