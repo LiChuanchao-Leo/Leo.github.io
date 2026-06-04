@@ -1,0 +1,306 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+.site-header {
+  background-color: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+
+.site-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #424242;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.site-title:hover {
+  color: #2a7ae2;
+}
+
+.site-nav {
+  display: inline-block;
+}
+
+.site-nav a {
+  color: #424242;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.site-nav a:hover {
+  color: #2a7ae2;
+}
+
+/* Main Content */
+.page-content {
+  min-height: calc(100vh - 200px);
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.page-heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #424242;
+}
+
+.intro {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+  line-height: 1.8;
+}
+
+/* Post List */
+.post-list {
+  list-style: none;
+  margin: 30px 0;
+}
+
+.post-list li {
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.post-list li:last-child {
+  border-bottom: none;
+}
+
+.post-meta {
+  font-size: 14px;
+  color: #828282;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.post-list h3 {
+  margin: 10px 0;
+}
+
+.post-link {
+  color: #2a7ae2;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.post-link:hover {
+  text-decoration: underline;
+}
+
+.post-list p {
+  color: #666;
+  margin: 10px 0;
+}
+
+.post-category {
+  display: inline-block;
+  background-color: #e8f4f8;
+  color: #2a7ae2;
+  padding: 4px 12px;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Individual Post */
+.post {
+  background-color: #fff;
+}
+
+.post-header {
+  margin-bottom: 30px;
+}
+
+.post-title {
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  color: #424242;
+}
+
+.post-content {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.post-content h2 {
+  font-size: 28px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #424242;
+}
+
+.post-content h3 {
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #424242;
+}
+
+.post-content p {
+  margin-bottom: 20px;
+}
+
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
+.post-content ul, .post-content ol {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.post-content li {
+  margin-bottom: 10px;
+}
+
+.post-content code {
+  background-color: #f5f5f5;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+}
+
+.post-content pre {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+.post-content pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+.post-footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #e8e8e8;
+}
+
+.post-footer a {
+  color: #2a7ae2;
+  text-decoration: none;
+}
+
+.post-footer a:hover {
+  text-decoration: underline;
+}
+
+/* About Page */
+.about h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #424242;
+}
+
+.about h2 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #424242;
+}
+
+.about p, .about ul {
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+.about ul {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.about ul li::before {
+  content: "• ";
+  color: #2a7ae2;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.about a {
+  color: #2a7ae2;
+  text-decoration: none;
+}
+
+.about a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #424242;
+  color: #fff;
+  padding: 30px 0;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.site-footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+  .site-header {
+    padding: 15px 0;
+  }
+
+  .site-title {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .site-nav {
+    display: block;
+  }
+
+  .site-nav a {
+    margin-left: 0;
+    margin-right: 15px;
+  }
+
+  .page-heading {
+    font-size: 26px;
+  }
+
+  .post-title {
+    font-size: 28px;
+  }
+
+  .post-link {
+    font-size: 20px;
+  }
+}

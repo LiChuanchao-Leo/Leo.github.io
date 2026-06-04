@@ -1,0 +1,24 @@
+# Site settings
+title: Leo的个人博客
+description: 分享知识，记录见闻，欣赏风景
+author: Leo
+email: your-email@example.com
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Permalink settings
+permalink: /blog/:year/:month/:day/:title/
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
