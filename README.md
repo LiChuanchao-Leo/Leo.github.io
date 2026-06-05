@@ -1,6 +1,6 @@
 # Leo的个人博客
 
-读书生涯迟暮，终于决定开设个人博客。
+stay hungry，stay foolish
 
 ## 简介
 
